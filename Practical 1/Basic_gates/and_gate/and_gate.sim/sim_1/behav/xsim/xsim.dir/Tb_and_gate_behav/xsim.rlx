@@ -1,0 +1,12 @@
+
+{ 
+    crc :  4115685413111330164  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto da427ba5fc534fee9b5cb295cb51f195 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Tb_and_gate_behav xil_defaultlib.Tb_and_gate" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:41:02" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2018.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/Tb_and_gate_behav/xsimk.exe\"   \"xsim.dir/Tb_and_gate_behav/obj/xsim_0.win64.obj\" \"xsim.dir/Tb_and_gate_behav/obj/xsim_1.win64.obj\" \"C:\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"C:\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

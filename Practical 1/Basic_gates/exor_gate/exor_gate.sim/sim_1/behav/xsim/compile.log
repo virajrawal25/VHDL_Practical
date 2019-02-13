@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/A_viraj drive/AMtech/HDL/Practical/basicgates1/and_gate/exor_gate/exor_gate.srcs/sources_1/new/exor_gate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity exor_gate
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/A_viraj drive/AMtech/HDL/Practical/basicgates1/and_gate/exor_gate/exor_gate.srcs/sim_1/new/Tb_exor_gate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tb_exor_gate

@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/rpl_adder_4b/rpl_adder_4b.srcs/sources_1/imports/new/fulladder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fulladder
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/rpl_adder_4b/rpl_adder_4b.srcs/sources_1/imports/new/halfadder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity halfadder
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/rpl_adder_4b/rpl_adder_4b.srcs/sources_1/imports/new/or_gate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity or_gate
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/rpl_adder_4b/rpl_adder_4b.srcs/sources_1/new/rpl_adder_4b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity rpl_adder_4b
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/rpl_adder_4b/rpl_adder_4b.srcs/sim_1/new/Tb_rpl_adder_4b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tb_rpl_adder_4b

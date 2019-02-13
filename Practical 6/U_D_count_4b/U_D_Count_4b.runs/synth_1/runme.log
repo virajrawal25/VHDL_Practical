@@ -1,0 +1,253 @@
+
+*** Running vivado
+    with args -log U_D_Count_4b.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source U_D_Count_4b.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source U_D_Count_4b.tcl -notrace
+Command: synth_design -top U_D_Count_4b -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 35520 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 372.395 ; gain = 99.227
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'U_D_Count_4b' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:43]
+INFO: [Synth 8-3491] module 'JK_FF' declared at 'F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 5/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.vhd:34' bound to instance 'x1' of component 'JK_FF' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'JK_FF' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 5/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'JK_FF' (1#1) [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 5/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.vhd:43]
+INFO: [Synth 8-3491] module 'and_gate' declared at 'F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/and_gate/and_gate.srcs/sources_1/new/and_gate.vhd:34' bound to instance 'x2' of component 'and_gate' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'and_gate' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/and_gate/and_gate.srcs/sources_1/new/and_gate.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'and_gate' (2#1) [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/and_gate/and_gate.srcs/sources_1/new/and_gate.vhd:40]
+INFO: [Synth 8-3491] module 'and_gate' declared at 'F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/and_gate/and_gate.srcs/sources_1/new/and_gate.vhd:34' bound to instance 'x3' of component 'and_gate' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:83]
+INFO: [Synth 8-3491] module 'or_gate' declared at 'F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/or_gate/or_gate.srcs/sources_1/new/or_gate.vhd:34' bound to instance 'x4' of component 'or_gate' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'or_gate' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/or_gate/or_gate.srcs/sources_1/new/or_gate.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'or_gate' (3#1) [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/or_gate/or_gate.srcs/sources_1/new/or_gate.vhd:40]
+INFO: [Synth 8-3491] module 'JK_FF' declared at 'F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 5/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.vhd:34' bound to instance 'x1' of component 'JK_FF' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:85]
+INFO: [Synth 8-3491] module 'and_gate' declared at 'F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/and_gate/and_gate.srcs/sources_1/new/and_gate.vhd:34' bound to instance 'x2' of component 'and_gate' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:82]
+INFO: [Synth 8-3491] module 'and_gate' declared at 'F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/and_gate/and_gate.srcs/sources_1/new/and_gate.vhd:34' bound to instance 'x3' of component 'and_gate' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:83]
+INFO: [Synth 8-3491] module 'or_gate' declared at 'F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/or_gate/or_gate.srcs/sources_1/new/or_gate.vhd:34' bound to instance 'x4' of component 'or_gate' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:84]
+INFO: [Synth 8-3491] module 'JK_FF' declared at 'F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 5/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.vhd:34' bound to instance 'x1' of component 'JK_FF' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:85]
+INFO: [Synth 8-3491] module 'and_gate' declared at 'F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/and_gate/and_gate.srcs/sources_1/new/and_gate.vhd:34' bound to instance 'x2' of component 'and_gate' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:82]
+INFO: [Synth 8-3491] module 'and_gate' declared at 'F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/and_gate/and_gate.srcs/sources_1/new/and_gate.vhd:34' bound to instance 'x3' of component 'and_gate' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:83]
+INFO: [Synth 8-3491] module 'or_gate' declared at 'F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/or_gate/or_gate.srcs/sources_1/new/or_gate.vhd:34' bound to instance 'x4' of component 'or_gate' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:84]
+INFO: [Synth 8-3491] module 'JK_FF' declared at 'F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 5/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.vhd:34' bound to instance 'x1' of component 'JK_FF' [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'U_D_Count_4b' (4#1) [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd:43]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 426.668 ; gain = 153.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 426.668 ; gain = 153.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 426.668 ; gain = 153.500
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 426.668 ; gain = 153.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module JK_FF 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-6014] Unused sequential element z1[3].f2.x1/Qb_reg was removed.  [F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 5/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.vhd:53]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 555.727 ; gain = 282.559
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 555.727 ; gain = 282.559
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 555.914 ; gain = 282.746
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 555.914 ; gain = 282.746
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 555.914 ; gain = 282.746
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 555.914 ; gain = 282.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 555.914 ; gain = 282.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 555.914 ; gain = 282.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 555.914 ; gain = 282.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     2|
+|3     |LUT3 |     8|
+|4     |LUT4 |     3|
+|5     |FDCE |     4|
+|6     |FDPE |     3|
+|7     |FDRE |     8|
+|8     |IBUF |     3|
+|9     |OBUF |     5|
++------+-----+------+
+
+Report Instance Areas: 
++------+----------------+--------+------+
+|      |Instance        |Module  |Cells |
++------+----------------+--------+------+
+|1     |top             |        |    37|
+|2     |  \z1[0].f1.x1  |JK_FF   |     7|
+|3     |  \z1[1].f2.x1  |JK_FF_0 |     7|
+|4     |  \z1[2].f2.x1  |JK_FF_1 |     8|
+|5     |  \z1[3].f2.x1  |JK_FF_2 |     5|
++------+----------------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 555.914 ; gain = 282.746
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 555.914 ; gain = 282.746
+Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 555.914 ; gain = 282.746
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 671.418 ; gain = 410.770
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'F:/A_viraj drive/AMtech/HDL/Practical/Practical 6/U_D_count_4b/U_D_Count_4b.runs/synth_1/U_D_Count_4b.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file U_D_Count_4b_utilization_synth.rpt -pb U_D_Count_4b_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 671.418 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 15 18:48:23 2018...

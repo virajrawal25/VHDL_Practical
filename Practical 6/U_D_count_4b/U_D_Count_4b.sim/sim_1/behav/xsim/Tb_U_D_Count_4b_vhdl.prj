@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 5/JK_FF/JK_FF.srcs/sources_1/new/JK_FF.vhd" \
+"../../../../U_D_Count_4b.srcs/sources_1/new/U_D_Count_4b.vhd" \
+"../../../../U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/and_gate/and_gate.srcs/sources_1/new/and_gate.vhd" \
+"../../../../U_D_Count_4b.srcs/sources_1/imports/Practical/Practical 1/Basic_gates/or_gate/or_gate.srcs/sources_1/new/or_gate.vhd" \
+"../../../../U_D_Count_4b.srcs/sim_1/new/Tb_U_D_Count_4b.vhd" \
+
+# Do not sort compile order
+nosort

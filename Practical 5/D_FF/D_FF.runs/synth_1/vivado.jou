@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Sep 15 15:50:51 2018
+# Process ID: 21468
+# Current directory: F:/A_viraj drive/AMtech/HDL/Practical/Practical 5/D_FF/D_FF.runs/synth_1
+# Command line: vivado.exe -log D_FF.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source D_FF.tcl
+# Log file: F:/A_viraj drive/AMtech/HDL/Practical/Practical 5/D_FF/D_FF.runs/synth_1/D_FF.vds
+# Journal file: F:/A_viraj drive/AMtech/HDL/Practical/Practical 5/D_FF/D_FF.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source D_FF.tcl -notrace

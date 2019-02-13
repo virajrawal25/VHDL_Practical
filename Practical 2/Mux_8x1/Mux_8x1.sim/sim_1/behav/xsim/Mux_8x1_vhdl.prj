@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Mux_8x1.srcs/sources_1/imports/Practical/Practical 2/and_4input/and_4input.srcs/sources_1/new/and_4input.vhd" \
+"../../../../Mux_8x1.srcs/sources_1/imports/new/not_gate.vhd" \
+"../../../../Mux_8x1.srcs/sources_1/new/Mux_8x1.vhd" \
+
+# Do not sort compile order
+nosort

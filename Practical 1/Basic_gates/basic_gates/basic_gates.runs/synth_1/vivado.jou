@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Sep 11 22:49:30 2018
+# Process ID: 29992
+# Current directory: F:/A_viraj drive/AMtech/HDL/Practical/Practical 1/Basic_gates/basic_gates/basic_gates.runs/synth_1
+# Command line: vivado.exe -log basic_gates.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source basic_gates.tcl
+# Log file: F:/A_viraj drive/AMtech/HDL/Practical/Practical 1/Basic_gates/basic_gates/basic_gates.runs/synth_1/basic_gates.vds
+# Journal file: F:/A_viraj drive/AMtech/HDL/Practical/Practical 1/Basic_gates/basic_gates/basic_gates.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source basic_gates.tcl -notrace

@@ -1,0 +1,58 @@
+component and_gate is
+ 
+  port(a,b:in std_logic;
+        y: out std_logic);
+end component and_gate;        
+signal a,b,y:std_logic;
+begin
+x1:and_gate port map(a,b,y);
+     process
+     begin
+     a<='0';
+     b<='0';
+     wait for 10ns;
+     
+     a<='1';
+     b<='0';
+     wait for 10ns;
+     
+     a<='0';
+     b<='1';
+     wait for 10ns;
+               
+     a<='1';
+     b<='1';
+     wait for 10ns;
+          
+    end process;
+
+
+
+
+component and_4input is
+ 
+   Port ( a1,a2,a3,a4 : in STD_LOGIC;
+           y: out STD_LOGIC);
+end component and_4input;        
+
+signal a:std_logic_vector( 3 downto 0);
+signal y:std_logic;
+
+begin
+x1:and_4input port map(a(0),a(1),a(2),a(3),y);
+     process
+     begin
+     a<="0000";
+     wait for 10ns;
+     a<="0001";
+     wait for 10ns;
+     a<="0010";
+     wait for 10ns;
+     a<="0100";
+     wait for 10ns;
+     a<="1000";
+     wait for 10ns;
+     a<="1111";
+     wait;
+               
+    end process;

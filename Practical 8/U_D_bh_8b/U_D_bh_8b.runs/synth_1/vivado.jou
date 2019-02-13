@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Sep 16 00:55:03 2018
+# Process ID: 30912
+# Current directory: F:/A_viraj drive/AMtech/HDL/Practical/Practical 8/U_D_bh_8b/U_D_bh_8b.runs/synth_1
+# Command line: vivado.exe -log U_D_bh_8B.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source U_D_bh_8B.tcl
+# Log file: F:/A_viraj drive/AMtech/HDL/Practical/Practical 8/U_D_bh_8b/U_D_bh_8b.runs/synth_1/U_D_bh_8B.vds
+# Journal file: F:/A_viraj drive/AMtech/HDL/Practical/Practical 8/U_D_bh_8b/U_D_bh_8b.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source U_D_bh_8B.tcl -notrace
